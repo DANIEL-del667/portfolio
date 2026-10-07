@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#191a17"/>
+  <circle cx="800" cy="500" r="360" fill="none" stroke="#353730" stroke-width="2"/>
+  <circle cx="800" cy="500" r="500" fill="none" stroke="#353730" stroke-width="2"/>
+  <text x="800" y="455" text-anchor="middle" fill="#b9e85d" font-family="Arial" font-size="32" font-weight="bold" letter-spacing="8">ONLINE BUSINESS</text>
+  <text x="800" y="540" text-anchor="middle" fill="white" font-family="Arial" font-size="76" font-weight="bold">OLIECH SHOP</text>
+  <text x="800" y="600" text-anchor="middle" fill="#999b93" font-family="Arial" font-size="24">Online Shopping Platform · 2026</text>
+</svg>
