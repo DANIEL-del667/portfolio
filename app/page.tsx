@@ -1,5 +1,5 @@
+﻿import Link from "next/link";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./page.module.css";
 
 const skills = [
@@ -54,6 +54,7 @@ export default function Home() {
         </nav>
 
         <Link href="#contact" className={styles.navButton}>
+<Link href="/teaching">Teaching</Link>
           Let&apos;s Talk
         </Link>
       </header>
@@ -123,7 +124,7 @@ export default function Home() {
             <span className={styles.statusDot}></span>
             <div>
               <strong>Available for projects</strong>
-              <small>Web • ICT • Systems</small>
+              <small>Web â€¢ ICT â€¢ Systems</small>
             </div>
           </div>
         </div>
@@ -204,7 +205,7 @@ export default function Home() {
             </p>
 
             <div className={styles.projectLink}>
-              View Project →
+              View Project â†’
             </div>
           </Link>
 
@@ -226,7 +227,7 @@ export default function Home() {
             </p>
 
             <div className={styles.projectLink}>
-              View Project →
+              View Project â†’
             </div>
           </Link>
 
@@ -247,7 +248,7 @@ export default function Home() {
             </p>
 
             <div className={styles.projectLink}>
-              View Project →
+              View Project â†’
             </div>
           </Link>
 
@@ -268,7 +269,7 @@ export default function Home() {
             </p>
 
             <div className={styles.projectLink}>
-              View Project →
+              View Project â†’
             </div>
           </Link>
         </div>
@@ -291,6 +292,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+
 
     {/* CONTACT */}
 <section id="contact" className={styles.contactSection}>
@@ -319,7 +321,7 @@ export default function Home() {
           href="mailto:danielayuka7@gmail.com?subject=Website%20Project%20Enquiry"
           className={styles.contactPrimary}
         >
-          Send Me an Email ↗
+          Send Me an Email â†—
         </a>
 
         <a
@@ -328,14 +330,14 @@ export default function Home() {
           rel="noopener noreferrer"
           className={styles.contactWhatsApp}
         >
-          WhatsApp Me ↗
+          WhatsApp Me â†—
         </a>
 
         <a
           href="tel:+254111503221"
           className={styles.contactCall}
         >
-          Call Me ↗
+          Call Me â†—
         </a>
 
       </div>
@@ -390,7 +392,7 @@ export default function Home() {
       download
       className={styles.cvButton}
     >
-      Download CV ↓
+      Download CV â†“
     </a>
 
   </div>
@@ -404,7 +406,7 @@ export default function Home() {
         </div>
 
         <p>
-          © {new Date().getFullYear()} Daniel Oliech. All rights reserved.
+          Â© {new Date().getFullYear()} Daniel Oliech. All rights reserved.
         </p>
       </footer>
     </main>
